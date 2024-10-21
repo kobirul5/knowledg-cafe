@@ -1,0 +1,53 @@
+[
+    {
+        "id": 1,
+        "cover_img": "https://i.ibb.co.com/YQMsVJb/pexels-tranmautritam-326515.jpg",
+        "title": "The Great Adventure",
+        "author_name": "John Doe",
+        "author_img": "https://i.ibb.co.com/zn0zYWX/pexels-kelvin809-810775.jpg",
+        "hashtag": "#JohnDoe",
+        "posted_time": "2024-10-01T10:00:00Z"
+    },
+    {
+        "id": 2,
+        "cover_img": "https://i.ibb.co.com/9qHh3bz/pexels-kevin-ku-92347-577585.jpg",
+        "title": "Mystery of the Lost City",
+        "author_name": "Jane Smith",
+        "author_img": "https://i.ibb.co.com/TPZn3F8/pexels-danielpool-27913669.jpg",
+        "hashtag": "#JaneSmith",
+        "posted_time": "2024-10-05T14:30:00Z"
+    },
+    {
+        "id": 3,
+        "cover_img": "https://i.ibb.co.com/HVGc7Cr/pexels-negativespace-160107.jpg",
+        "title": "The Journey Within",
+        "author_name": "Emily Johnson",
+        "author_img": "https://i.ibb.co.com/5MxC1vH/pexels-emre-can-576914516-28943731.jpg",
+        "hashtag": "#EmilyJohnson",
+        "posted_time": "2024-10-10T08:15:00Z"
+    },
+    {
+        "id": 4,
+        "cover_img": "https://i.ibb.co.com/WvXcVhD/pexels-fotios-photos-16129700.jpg",
+        "title": "Beyond the Horizon",
+        "author_name": "Michael Brown",
+        "author_img": "hhttps://i.ibb.co.com/4smpg6s/pexels-adrienn-638530-1542085.jpg",
+        "hashtag": "#MichaelBrown",
+        "posted_time": "2024-10-15T12:45:00Z"
+    },
+    {
+        "id": 5,
+        "cover_img": "https://i.ibb.co.com/VvF8wFm/pexels-thisisengineering-3861958.jpg",
+        "title": "Secrets of the Universe",
+        "author_name": "Sarah Davis",
+        "author_img": "https://i.ibb.co.com/qxsRSkh/pexels-andrewperformance1-697509.jpg",
+        "hashtag": "#SarahDavis",
+        "posted_time": "2024-10-20T09:00:00Z"
+    }
+]
+
+
+
+
+
+

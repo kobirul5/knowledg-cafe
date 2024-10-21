@@ -1,9 +1,10 @@
 import PropTypes from 'prop-types'; 
-const Blog = ({blog}) => {
+import { CiBookmark } from "react-icons/ci";
+const Blog = ({blog, handleAddBookmark}) => {
     const {title,cover_img, author_name, author_img, read_time,posted_time,hashtag} = blog
     return (
         <div className='space-y-3 p-5 border-b'>
-            <div><img className='rounded-lg border' src={cover_img} alt= {`cover picture of title ${title}`} /></div>
+            <div><img className='rounded-lg border w-full' src={cover_img} alt= {`cover picture of title ${title}`} /></div>
             <div className='flex justify-between'>
                 <div className='flex items-center gap-2'>
                     <div className=''>
@@ -14,8 +15,9 @@ const Blog = ({blog}) => {
                         <p className='text-gray-500'>{posted_time}</p>
                     </div>
                 </div>
-                <div>
+                <div className='flex gap-2 justify-center items-center'>
                     <p className='text-gray-500'>{read_time}</p>
+                    <button onClick={handleAddBookmark}><CiBookmark /></button>
                 </div>
             </div>
            <h1 className='text-5xl font-bold '>{title}</h1>

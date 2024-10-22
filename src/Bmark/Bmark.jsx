@@ -1,4 +1,4 @@
-
+import PropTypes from 'prop-types';
 const Bmark = ({bookmark}) => {
 
     return (
@@ -10,5 +10,7 @@ const Bmark = ({bookmark}) => {
         </div>
     );
 };
-
+Bmark.propTypes = {
+    bookmark: PropTypes.object.isRequired
+}
 export default Bmark;
